@@ -12,6 +12,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/beryllium/beryllium-vendor.mk)
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2246
 TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES = 1080
 
 # FM
 PRODUCT_PACKAGES += \
